@@ -59,6 +59,5 @@ endif()
 add_library(GVL SHARED ${SOURCES})
 target_link_libraries(GVL ${OpenCV_LIBS} ${VTK_LIBRARIES} ${CERES_LIBRARIES} ${MORE_LIBS} ${VIZ_LIBRARIES})
 
-# Actual apps -----------------------------------------------------------------------------------------------
 add_executable(ShapePrior "apps/shapeprior.cpp" )
 target_link_libraries(ShapePrior GVL ${OpenCV_LIBS} ${CERES_LIBRARIES} ${MORE_LIBS} ${VIZ_LIBRARIES}) #${VTK_LIBRARIES}
