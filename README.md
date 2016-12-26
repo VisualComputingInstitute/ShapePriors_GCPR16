@@ -12,7 +12,7 @@ First build VIZ in './external/viz' following the instructions given there.
 Then build using normal cmake procedure.
 ```
 mkdir build; cd build;
-cmake ..; make
+cmake .. -DCMAKE_BUILD_TYPE=Release; make -j
 ```
 
 ## Usage example:
