@@ -1,4 +1,4 @@
-# Shape Priors - GCPR'15
+# Shape Priors - GCPR'16
 
 ## Dependencies
 The following libs are rquired:
