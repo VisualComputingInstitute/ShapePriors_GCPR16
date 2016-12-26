@@ -8,12 +8,13 @@ The following libs are rquired:
 # Compiling
 First build VIZ in './external/viz' following the instructions given there.
 Then build using normal cmake procedure.
-'mkdir build; cd build;'
-'cmake ..; make'
+```mkdir build; cd build; ```
+```cmake ..; make```
 
 # Usage example:
 The following is an example run. All needed precomputations are already given in /data.
-‘./ShapePrior ../data/kitti/image_2/000046_ 10 10 2 000046 ../data/kitti/poses/000046.txt ../data/kitti/detections/000046_ ../data/kitti/disparity/000046_ ../data/kitti/calib/000046.txt ../data/kitti/planes/000046_ ../data/kitti/results/kapp3/ 1'
+```
+‘./ShapePrior ../data/kitti/image_2/000046_ 10 10 2 000046 ../data/kitti/poses/000046.txt ../data/kitti/detections/000046_ ../data/kitti/disparity/000046_ ../data/kitti/calib/000046.txt ../data/kitti/planes/000046_ ../data/kitti/results/kapp3/ 1'```
 
 Once the optimization has converged, a window will appear showing the input on the left and our result on the right.
 You can zoom in into the car, by pointing with the mouse at it an pressing 'F'.
