@@ -8,9 +8,9 @@ The following libs are rquired:
 # Compiling
 First build VIZ in './external/viz' following the instructions given there.
 Then build using normal cmake procedure.
-```mkdir build; cd build;
 ```
-```cmake ..; make
+mkdir build; cd build;
+cmake ..; make
 ```
 
 # Usage example:
