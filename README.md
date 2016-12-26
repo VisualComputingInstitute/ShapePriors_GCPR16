@@ -25,8 +25,10 @@ Press 'esc' to close.
 
 # Citation
 If you find this code useful please cite us:
+```
 @inproceedings{EngelmannGCPR16_shapepriors, 
 title = {Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using {3D} Shape Priors},
 author = {Francis Engelmann and J\"org St\"uckler and Bastian Leibe},
 booktitle = {Proc. of the German Conference on Pattern Recognition (GCPR)},
 year = {2016}}
+```
