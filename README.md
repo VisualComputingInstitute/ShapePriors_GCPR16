@@ -18,7 +18,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release; make -j
 ```
 
 ## Usage example:
-The following is an example run. All needed precomputations are already given in /data.
+The following is an example run. All needed precomputations are already given in `./data`.
 ```
 ‘./ShapePrior ../data/kitti/image_2/000046_ 10 10 2 000046 ../data/kitti/poses/000046.txt ../data/kitti/detections/000046_ ../data/kitti/disparity/000046_ ../data/kitti/calib/000046.txt ../data/kitti/planes/000046_ ../data/kitti/results/kapp3/ 1' 
 ```
