@@ -1,6 +1,6 @@
 # Shape Priors - GCPR'16
 
-Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors
+This is the code from our GCPR'16 submission: "Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors".
 
 ## Dependencies
 The following libraries are required:
@@ -11,7 +11,7 @@ The following libraries are required:
 
 ## Compiling
 First build VIZ in `./external/viz` following the instructions given there.
-Then build using normal cmake procedure.
+Then build the code using cmake:
 ```
 mkdir build; cd build;
 cmake .. -DCMAKE_BUILD_TYPE=Release; make -j
