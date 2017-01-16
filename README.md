@@ -3,7 +3,7 @@
 Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors
 
 ## Dependencies
-The following libs are rquired:
+The following libraries are required:
 * VTK 7
 * OpenCV
 * Eigen
