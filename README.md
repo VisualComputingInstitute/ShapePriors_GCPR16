@@ -1,15 +1,15 @@
-# Shape Priors - GCPR'16
+# Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors - GCPR'16
 
 This is the code from our GCPR'16 submission: "Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors".
 
-## Dependencies
+### Dependencies
 The following libraries are required:
 * VTK 7
 * OpenCV
 * Eigen
 * CeresSolver
 
-## Compiling
+### Compiling
 First build VIZ in `./external/viz` following the instructions given there.
 Then build the code using cmake:
 ```
@@ -17,7 +17,7 @@ mkdir build; cd build;
 cmake .. -DCMAKE_BUILD_TYPE=Release; make -j
 ```
 
-## Usage example:
+### Usage example:
 The following is an example run. All needed precomputations are already given in `./data`.
 ```
 ‘./ShapePrior ../data/kitti/image_2/000046_ 10 10 2 000046 ../data/kitti/poses/000046.txt ../data/kitti/detections/000046_ ../data/kitti/disparity/000046_ ../data/kitti/calib/000046.txt ../data/kitti/planes/000046_ ../data/kitti/results/kapp3/ 1' 
@@ -27,7 +27,7 @@ Once the optimization has converged, a window will appear showing the input on t
 You can zoom in onto the car, by pointing with the mouse at it and pressing <kbd>F</kbd>.
 Press <kbd>esc</kbd> to close the window.
 
-## Citation
+### Citation
 If you find this code useful please cite us:
 ```
 @inproceedings{EngelmannGCPR16_shapepriors, 
