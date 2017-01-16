@@ -24,8 +24,8 @@ The following is an example run. All needed precomputations are already given in
 ```
 
 Once the optimization has converged, a window will appear showing the input on the left and our result on the right.
-You can zoom in into the car, by pointing with the mouse at it and pressing `F`.
-Press `esc` to close.
+You can zoom in onto the car, by pointing with the mouse at it and pressing <kbd>F</kbd>.
+Press <kbd>esc</kbd> to close the window.
 
 ## Citation
 If you find this code useful please cite us:
