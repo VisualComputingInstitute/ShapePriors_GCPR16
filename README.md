@@ -1,5 +1,7 @@
 # Shape Priors - GCPR'16
 
+Joint Object Pose Estimation and Shape Reconstruction in Urban Street Scenes Using 3D Shape Priors
+
 ## Dependencies
 The following libs are rquired:
 * VTK 7
